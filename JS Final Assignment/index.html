@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Final Assignment</title>
+
+    <style>
+       
+        body{
+            background-color: rgba(0, 255, 213, 0.493);
+        }
+
+
+
+
+      .formsstyle{
+          margin-left: 300px;
+          margin-top: 50px;
+          width: 345px;
+          height: 350px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 5px solid;
+          border-radius: 10px;
+      }
+input{
+    color: rgb(0, 38, 255);
+  
+}
+
+   </style>
+</head>
+<body>
+
+    <h1>Java Script Final Assignment</h1>
+
+     <!-- 38-  Write a js program to create Simple Calculator using switch case -->
+
+    <div class="formsstyle">
+     
+        <form name="form">
+          <h3>A simple calcullator using javascript</h3>
+          <input  type="text" name="answer"> <br> <br>
+               
+          <input type="button" value="1" onclick="form.answer.value += '1' "> 
+          <input type="button" value="2" onclick="form.answer.value += '2' "> 
+          <input type="button" value="3" onclick="form.answer.value += '3' "> 
+            
+          <br> <br> 
+           
+          <input type="button" value="4" onclick="form.answer.value += '4' "> 
+          <input type="button" value="5" onclick="form.answer.value += '5' "> 
+          <input type="button" value="6" onclick="form.answer.value += '6' "> 
+            
+          <br><br> 
+  
+          <input type="button" value="7" onclick="form.answer.value += '7' "> 
+          <input type="button" value="8" onclick="form.answer.value += '8' "> 
+          <input type="button" value="9" onclick="form.answer.value += '9' "> 
+          
+          <br><br> 
+          <input type="button" value="+" onclick="form.answer.value += '+' "> 
+          <input type="button" value="-" onclick="form.answer.value += '-' "> 
+          <input type="button" value="*" onclick="form.answer.value += '*' "> 
+          
+          <br><br> 
+              
+  
+          <input type="button" value="/" onclick="form.answer.value += '/' "> 
+          <input type="button" value="0" onclick="form.answer.value += '0' "> 
+          <input type="button" value="=" onclick="form.answer.value = eval(form.answer.value)"> 
+          
+          <br> <br>
+  
+          <input type="button" value="Claer All" onclick="form.answer.value ='' ">
+  
+  
+  
+        </form>
+  
+    </div>
+  
+    
+
+    <script src="final.js"></script>
+</body>
+</html>
